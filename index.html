@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Map</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    
+    
+
+  <div class="container">
+    <h1>Weather Map</h1>
+    <input type="text" id="searchInput" placeholder="Enter country name">
+    <button onclick="searchWeather()">Search</button>
+
+    <div id="weatherInfo" class="hidden">
+      <h2 id="location"></h2>
+      <div id="weatherDetails">
+        <div id="temperature"></div>
+        <div id="weatherDescription"></div>
+        <img id="weatherIcon" alt="Weather Icon">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Weather Map. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
